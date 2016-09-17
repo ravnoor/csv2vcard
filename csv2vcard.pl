@@ -80,4 +80,3 @@ open my $out, ">:encoding(utf8)", "address.vcf"
     || die "Couldn't write address.vcf";;
 print $out $ab->export;
 close $out;
-
